@@ -1,19 +1,18 @@
-package com.example.controller;
+package com.springweb.main.controll;
 
-import com.example.Project.User;
+import com.springweb.main.Info.User;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class project {
+public class ImpControl {
     @RequestMapping("" +
             "")
     public String simpleparam (String username, Integer age) {

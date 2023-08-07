@@ -1,4 +1,4 @@
-package com.example.Project;
+package com.springweb.main.Info;
 
 public class Address {
     private String province;

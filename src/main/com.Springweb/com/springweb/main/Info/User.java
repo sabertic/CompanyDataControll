@@ -1,4 +1,4 @@
-package com.example.Project;
+package com.springweb.main.Info;
 
 public class User {
     private String name;
